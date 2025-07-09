@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #548687;
+}
+
+h1 {
+  padding: 40px;
+  font-size: 40px;
+}
+
+.container {
+  height: 75vh;
+  /* 70% of the page is cover */
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5vmin;
+  align-items: center;
+  justify-content: center;
+  /* isko 3 part me divide krenge  */
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #b0413e;
+  background-color: #fff;
+}
+
+.resetgame {
+  padding: 1rem;
+  background-color: #000000;
+  border-radius: 3vmin;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.resetgame:hover {
+  background-color: rgb(117, 4, 4);
+  color: white;
+}
+
+.newgame {
+  padding: 1rem;
+  background-color: #000000;
+  border-radius: 3vmin;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.msg {
+  font-size: 6vmin;
+  color: #ffffc7;
+}
+
+.msg-container {
+  margin-bottom: 30vmin;
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .container {
+    height: 47vh;
+  }
+  .msg-container {
+    margin-top: 35vmin;
+  }
+}
