@@ -8,7 +8,8 @@ Play with your friend, enjoy the sleek design, and restart as many times as you 
 
 ## 📸 Preview
 
-![Tic Tac Toe Screenshot](Screenshot 2025-07-10 021838.png) 
+![Tic Tac Toe Screenshot](https://raw.githubusercontent.com/your-username/your-repo/main/assets/screenshot.png)
+
 
 
 ## ✨ Features
